@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/bg-intro-desktop.png");
+  background-color: hsl(0deg, 100%, 74%);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  margin: 20rem 10rem 0;
+}
+@media (max-width: 665px) {
+  .main {
+    display: block;
+  }
+}
+
+.error {
+  border: 2px solid hsl(0deg, 100%, 74%);
+  background: url("./images/icon-error.svg") no-repeat;
+  background-position: 95% 50%;
+  background-size: 0.5rem;
+}
+
+.error-text {
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 2rem;
+  margin-top: -5px;
+  margin-bottom: 2px;
+  color: hsl(0deg, 100%, 74%);
+}
+
+.success {
+  border: 2px solid hsl(154deg, 59%, 51%);
+}
+
+.left-side {
+  width: 100rem;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.input-box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  margin: 5px 30px 10px;
+  border: 1px solid white;
+  border-color: hsl(246deg, 25%, 77%);
+  border-radius: 10px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.first {
+  margin-top: 20px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button1 {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 10px 10px;
+  border: 0;
+  background-color: hsl(154deg, 59%, 51%);
+  color: white;
+}
+
+.btm {
+  margin: 5px 20px 10px;
+  color: lightgrey;
+}
+
+.btn2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: hsl(248deg, 32%, 49%);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.terms {
+  color: red;
+}
+
+p {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(246deg, 25%, 77%);
+}/*# sourceMappingURL=style.css.map */
